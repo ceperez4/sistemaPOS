@@ -2,8 +2,11 @@
 class ControllerProductos
 {
 
-  public function ctrPlantilla()
-  {
-    include "views/plantilla.php";
+
+  static public function ctrlMostrarProductos($item,$valor){
+
+    $tabla="productos";
+    $respuesta = ModelProductos :: mdlMostrarProdcutos($tabla,$item,$valor);
+    return $respuesta;
   }
 }

@@ -28,6 +28,8 @@ session_start();
 
   <link rel="stylesheet" href="views/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="views/bower_components/datatables.net-bs/css/responsive.bootstrap.min.css">
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="views/plugins/iCheck/all.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,6 +62,8 @@ session_start();
 
   <script src="views/plugins/sweetalert2/sweetalert2.all.js"></script>
 
+  <!-- iCheck 1.0.1 -->
+<script src="views/plugins/iCheck/icheck.min.js"></script>
   <!-- AdminLTE for demo purposes -->
 
 
@@ -111,6 +115,8 @@ session_start();
 
   <script src="views/js/plantilla.js"></script>
   <script src="views/js/usuarios.js"></script>
+  <script src="views/js/categorias.js"></script>
+  <script src="views/js/productos.js"></script>
 </body>
 
 </html>
